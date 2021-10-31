@@ -96,3 +96,25 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     align-items: center;
 }
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    
+    background-color: #FEFEFE;
+}
+
+.title h2 {
+font-size: 48px;
+width: 20%;
+align-items: flex-start; 
+text-align: right;
+margin: 3.5%;
+color: var(--font-color);
+}
+
+.title p {
+    align-items: flex-end;
+}
+
+
