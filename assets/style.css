@@ -80,8 +80,19 @@ header nav ul li a:hover {
 }
 
 .hero div {
-    font-size: 40px;
-    position:absolute;
-    right:50px;
+    position: absolute;
+    right: 50px;
+    margin: auto 50px 20px auto;
 }
-          
+
+.hero div h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    font-size: 1.35pw;
+    color: var(--secondary-color);
+    padding: 20px;
+    background-color: var(--quaternary-color);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
