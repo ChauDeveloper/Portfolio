@@ -97,7 +97,7 @@ header nav ul li a:hover {
     align-items: center;
 }
 
-section {
+.title {
     display: flex;
     flex-wrap: wrap;
     
@@ -117,4 +117,26 @@ color: var(--font-color);
     align-items: flex-end;
 }
 
+footer div ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    padding: 100px 35px;
+}
 
+footer div ul li{
+    padding: 10px 80px 0px 15px;
+    font-weight: lighter;
+    font-size: 0.75vw;
+    color: var(--secondary-color);
+    text-decoration:none;
+    font-style: normal;
+}
+
+footer div ul li:hover {
+    font-style: italic;
+    text-decoration:underline;
+}
