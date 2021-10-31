@@ -97,24 +97,35 @@ header nav ul li a:hover {
     align-items: center;
 }
 
-.title {
+.block {
     display: flex;
     flex-wrap: wrap;
-    
     background-color: #FEFEFE;
+    padding: 10px;
+    border-right: var(--secondary-color);
 }
 
-.title h2 {
+.block h2 {
 font-size: 48px;
 width: 20%;
 align-items: flex-start; 
 text-align: right;
 margin: 3.5%;
-color: var(--font-color);
+color: var(--secondary-color);
+
 }
 
-.title p {
+.block p {
     align-items: flex-end;
+    text-align: left;
+    font-size: 2pw;
+    color:var(--font-color);
+}
+
+.right {
+    border-left:solid var(--secondary-color) 5px;
+    padding: 10px 80px 50px 15px;
+    position: right;
 }
 
 footer div ul{
@@ -124,7 +135,6 @@ footer div ul{
     align-items: center;
     list-style: none;
     width: 100%;
-    padding: 100px 35px;
 }
 
 footer div ul li{
@@ -132,8 +142,8 @@ footer div ul li{
     font-weight: lighter;
     font-size: 0.75vw;
     color: var(--secondary-color);
-    text-decoration:none;
     font-style: normal;
+    text-decoration:none;
 }
 
 footer div ul li:hover {
