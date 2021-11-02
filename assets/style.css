@@ -14,20 +14,21 @@
 }
 
 body {
-    font-family:monaco;
+    font-family:'Courier New', Courier, monospace;
     color: var(--font-color);
 }
 
 header {
     z-index: 9999;
     background-color: var(--primary-color);
+    background-position: 80%;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
     display:flex;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     justify-content: space-between;
-    padding: 20px 35px 35px 0px;
     flex-wrap: wrap;
     position: -webkit-sticky;
     position: sticky;
@@ -36,17 +37,19 @@ header {
 
 header h1 {
     font-weight: bolder;
-    font-size: 48px;
+    font-size: 2vw;
     color: var(--secondary-color);
     padding: 10px 20px 0px 100px;
     background-color: var(--quaternary-color);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    border-left: 0px;
+    margin-left: 0px;
 }
 
 header nav {
-    margin: 40px 15px 20px 15px;
+    margin: .5%;
 }
 
 header nav ul {
@@ -58,7 +61,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 10px 80px 15px 15px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
     color: var(--secondary-color);
@@ -76,7 +79,7 @@ header nav ul li a:hover {
     background-size:cover;
     background-position: relative;
     align-items: flex-end;
-    height:300px;
+    height:20vw;
 }
 
 .hero div {
@@ -99,10 +102,10 @@ header nav ul li a:hover {
 
 .block {
     display: flex;
-    flex-wrap: wrap;
     background-color: #FEFEFE;
     padding: 10px;
     border-right: var(--secondary-color);
+    overflow: hidden;
 }
 
 .block h2 {
@@ -111,21 +114,24 @@ width: 20%;
 align-items: flex-start; 
 text-align: right;
 margin: 3.5%;
-color: var(--secondary-color);
-
-}
-
-.block p {
-    align-items: flex-end;
-    text-align: left;
-    font-size: 2pw;
-    color:var(--font-color);
+color: var(--secondary-color)
 }
 
 .right {
     border-left:solid var(--secondary-color) 5px;
     padding: 10px 80px 50px 15px;
-    position: right;
+    display: inline-block
+}
+
+.right p{ 
+    text-align: left;
+    color:var(--font-color);
+    font-size: 1.5vw;
+    padding-top: 7%;
+}
+
+.right img {
+    height: 50px;
 }
 
 footer div ul{
