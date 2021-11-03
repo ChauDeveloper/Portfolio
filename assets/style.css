@@ -117,21 +117,30 @@ margin: 3.5%;
 color: var(--secondary-color)
 }
 
-.right {
+.right1, .right2, .right3 {
     border-left:solid var(--secondary-color) 5px;
     padding: 10px 80px 50px 15px;
     display: inline-block
 }
 
-.right p{ 
+.right1 p{ 
     text-align: left;
     color:var(--font-color);
     font-size: 1.5vw;
     padding-top: 7%;
 }
 
-.right img {
-    height: 50px;
+/*.right2 img {
+    height: 100px;
+}*/
+
+#run-buddy img{
+    width:600px;
+    height:auto;
+}
+
+.right2 h3 {
+    align-items: center;
 }
 
 footer div ul{
