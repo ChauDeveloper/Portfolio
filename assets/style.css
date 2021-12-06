@@ -145,23 +145,8 @@ footer div ul li{
     color: var(--font-color);
 }
 
-/*footer div ul{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    padding-left: 10px;
-    grid-row: 3/5;
+@media screen and (max-width: 817px) {
+    footer div ul li{
+        padding: 26px ;
 }
-
-
-
-footer div ul li:hover {
-    font-style: italic;
-    text-decoration:underline;
-}
-
-.right3 address ul li {
-    font-size: 0.75vw;
 }
