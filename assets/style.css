@@ -99,7 +99,14 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     align-items: center;
 }
-
+#project-3 {
+    position: relative;
+}
+#niques-eats-text {
+    position: absolute;
+    z-index:5;
+    top:18vw;
+}
 
 .block h2 {
 font-size: 40px;
@@ -123,8 +130,11 @@ color: var(--secondary-color)
 
 .right h3 {
     position: absolute;
-    background-color: var(--secondary-color);
+    background-color: #403621bd;
     padding: 5px;
+    font-size: 1.7vw;
+    box-shadow: 1vw 1vw 2vw black;
+    border-radius: 25px;
 }
 
 .right a {
