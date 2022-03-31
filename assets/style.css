@@ -62,8 +62,7 @@ header nav ul {
 
 header nav ul li a {
     padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
+    font-weight: bold;
     color: var(--secondary-color);
     text-decoration:none;
 }
